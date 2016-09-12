@@ -1,28 +1,48 @@
-var curIndex=0;
- //时间间隔 单位毫秒
- var timeInterval=5000;
- var arr=new Array();
- arr[0]="10.jpg";
- arr[1]="11.jpg";
- arr[2]="12.jpg";
- arr[3]="13.jpg";
- arr[4]="14.jpg";
- arr[5]="15.jpg";
- arr[6]="16.jpg";
- arr[7]="17.jpg";
- arr[8]="18.jpg";
- arr[9]="19.jpg";
- setInterval(changeImg,timeInterval);
- function changeImg()
- {
-   var obj=document.getElementById("showpic");
-    if (curIndex==arr.length-1) 
-    {
-        curIndex=0;
-    }
-    else
-    {
-        curIndex+=1;
-    }
-    obj.src="img/"+arr[curIndex];
- }
+$(function() {
+
+                var $el = $( '#wi-el' ),
+                    windy = $el.windy(),//将这个元素赋予windy()这个方法
+                    allownavnext = false,
+                    allownavprev = false;
+
+                $( '#nav-prev' ).on( 'mousedown', function( event ) {
+
+                    allownavprev = true;
+                    navprev();
+                
+                } ).on( 'mouseup mouseleave', function( event ) {
+
+                    allownavprev = false;
+                
+                } );
+
+                $( '#nav-next' ).on( 'mousedown', function( event ) {
+
+                    allownavnext = true;
+                    navnext();
+                
+                } ).on( 'mouseup mouseleave', function( event ) {
+
+                    allownavnext = false;
+                
+                } );
+
+                function navnext() {
+                    if( allownavnext ) {
+                        windy.next();
+                        setTimeout( function() {    
+                            navnext();
+                        }, 150 );
+                    }
+                }
+                
+                function navprev() {
+                    if( allownavprev ) {
+                        windy.prev();
+                        setTimeout( function() {    
+                            navprev();
+                        }, 150 );
+                    }
+                }
+
+            });
