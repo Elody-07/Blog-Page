@@ -14,7 +14,7 @@ body
 }
 .carousel-inner
 {
-	padding-top:50px;
+	margin-top:50px;
 
 }
 
@@ -24,6 +24,32 @@ body
 	margin-bottom: 50px;
 	border-style: solid;
 	border-color: #ddd;
+}
+
+.col-md-4
+{
+	padding:0;
+}
+.one
+{
+	padding-right: 10px;
+}
+.two
+{
+	padding-left:10px;
+	padding-right: 10px;
+}
+.three
+{
+	padding-left:10px;
+}
+.thumbnail
+{
+	padding:20px;
+}
+.caption
+{
+	padding:0;
 }
 
 
