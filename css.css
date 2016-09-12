@@ -1,0 +1,47 @@
+body,h1,h2,h3,h4,h5,h6,p,a
+{
+	font-family:"微软雅黑";
+}
+body
+{
+	background-color: #000;
+}
+
+.carousel-caption
+{
+	font-size: 20px;
+	color:#000;
+}
+.carousel-inner
+{
+	padding-top:50px;
+
+}
+
+.jumbotron
+{
+	margin-top:50px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: #ddd;
+}
+
+
+/*响应式*/
+@media screen and (max-width: 69.5em) {
+	.grid figure {
+		width: 50%;
+	}	
+
+	.grid figure figcaption {
+		font-size: 90%;
+	}
+}
+
+
+@media screen and (max-width: 41.5em) {
+
+	.grid figure {
+		width: 100%;
+	}
+}
