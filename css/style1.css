@@ -1,5 +1,5 @@
 .windy-demo {
-	width: 200px;
+	width: 500px;
 	margin: 40px auto;
 	color: #aaa;
 }
@@ -40,7 +40,7 @@
 }
 
 .windy-demo p {
-	font-size: 12px;
+	font-size: 17px;
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
