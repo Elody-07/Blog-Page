@@ -52,17 +52,23 @@ body
 	padding:0;
 }
 
-/*.windy-demo nav
+.windy-demo nav
 {
 	position: relative;
-}*/
-/*#nav-prev
+}
+#nav-prev
 {
 	position:absolute;
-	left:50px;
-	top:100px;
+	right:500px;
+	bottom:240px;
 }
-*/
+#nav-next
+{
+	position:absolute;
+	left:500px;
+	bottom:240px;
+}
+
 
 /*响应式*/
 @media screen and (max-width: 69.5em) {
