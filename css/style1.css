@@ -1,8 +1,8 @@
-/*.windy-demo {
-	width: 600px;
+.windy-demo {
+	width: 200px;
 	margin: 40px auto;
 	color: #aaa;
-}*/
+}
 
 .windy-demo ul.wi-container {
 	border-radius: 5px;
@@ -31,6 +31,13 @@
 	z-index: -1;
 }
 
+.windy-demo h4 {
+	color: #666;
+	font-size: 14px;
+	padding: 8px 0 5px;
+	margin: 5px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
 
 .windy-demo p {
 	font-size: 12px;
