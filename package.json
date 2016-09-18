@@ -1,0 +1,24 @@
+{
+  "name": "blog-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elody-07/Blog-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elody-07/Blog-Page/issues"
+  },
+  "homepage": "https://github.com/Elody-07/Blog-Page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0"
+  }
+}
