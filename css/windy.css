@@ -1,6 +1,6 @@
 ul.wi-container {
 	width: 700px;
-	height: 425px;
+	height: 289px;
 	margin: 0 auto 30px;
 	position: relative;
 	padding: 0;
@@ -11,6 +11,9 @@ ul.wi-container {
 	-o-perspective: 1400px;
 	perspective: 1400px;
 	text-align: center;
+	left:100px;
+	width:90%;
+
 }
 
 ul.wi-container li {
